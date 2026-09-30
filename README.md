@@ -43,13 +43,33 @@ O projeto também possui recursos de acessibilidade, armazenamento de dados no n
 ```text
 Faculdade Projetos/
 │
-├── css/
-│   └── style.css
-│
 ├── html/
 │   ├── css/
+│   │   └── style.css
+│   │
 │   ├── imagens/
+│   │   └── cachorro.png
+│   │
 │   ├── public/
+│   │   └── imagens/
+│   │       └── cachorro.png
+│   │
+│   ├── js/
+│   │   ├── eventos/
+│   │   │   ├── cadastro.js
+│   │   │   ├── inicio.js
+│   │   │   └── projetos.js
+│   │   │
+│   │   ├── views/
+│   │   │   ├── cadastro.js
+│   │   │   ├── inicio.js
+│   │   │   └── projetos.js
+│   │   │
+│   │   ├── dados.js
+│   │   ├── main.js
+│   │   ├── rotas.js
+│   │   └── ui.js
+│   │
 │   ├── cadastro.html
 │   ├── index.html
 │   └── projetos.html
@@ -58,26 +78,10 @@ Faculdade Projetos/
 │   ├── cachorro.png
 │   └── cachorro.svg
 │
-├── js/
-│   ├── eventos/
-│   │   ├── cadastro.js
-│   │   ├── inicio.js
-│   │   └── projetos.js
-│   │
-│   ├── views/
-│   │   ├── cadastro.js
-│   │   ├── inicio.js
-│   │   └── projetos.js
-│   │
-│   ├── dados.js
-│   ├── main.js
-│   ├── rotas.js
-│   └── ui.js
-│
 ├── dist/
 ├── node_modules/
+├── .gitignore
 ├── package-lock.json
 ├── package.json
-├── vite.config.js
 ├── README.md
-└── .gitignore
+└── vite.config.js
