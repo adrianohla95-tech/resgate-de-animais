@@ -43,13 +43,33 @@ O projeto também possui recursos de acessibilidade, armazenamento de dados no n
 ```text
 Faculdade Projetos/
 │
-├── css/
-│   └── style.css
-│
 ├── html/
 │   ├── css/
+│   │   └── style.css
+│   │
 │   ├── imagens/
+│   │   └── cachorro.png
+│   │
 │   ├── public/
+│   │   └── imagens/
+│   │       └── cachorro.png
+│   │
+│   ├── js/
+│   │   ├── eventos/
+│   │   │   ├── cadastro.js
+│   │   │   ├── inicio.js
+│   │   │   └── projetos.js
+│   │   │
+│   │   ├── views/
+│   │   │   ├── cadastro.js
+│   │   │   ├── inicio.js
+│   │   │   └── projetos.js
+│   │   │
+│   │   ├── dados.js
+│   │   ├── main.js
+│   │   ├── rotas.js
+│   │   └── ui.js
+│   │
 │   ├── cadastro.html
 │   ├── index.html
 │   └── projetos.html
@@ -58,67 +78,10 @@ Faculdade Projetos/
 │   ├── cachorro.png
 │   └── cachorro.svg
 │
-├── js/
-│   ├── eventos/
-│   │   ├── cadastro.js
-│   │   ├── inicio.js
-│   │   └── projetos.js
-│   │
-│   ├── views/
-│   │   ├── cadastro.js
-│   │   ├── inicio.js
-│   │   └── projetos.js
-│   │
-│   ├── dados.js
-│   ├── main.js
-│   ├── rotas.js
-│   └── ui.js
-│
 ├── dist/
 ├── node_modules/
+├── .gitignore
 ├── package-lock.json
 ├── package.json
-├── vite.config.js
 ├── README.md
-└── .gitignore
-## Versionamento e commits semânticos
-
-O projeto utiliza versionamento semântico para identificar suas versões.
-
-O formato utilizado é:
-
-`MAJOR.MINOR.PATCH`
-
-Exemplo:
-
-`1.0.0`
-
-- **MAJOR**: alterações que podem quebrar a compatibilidade do projeto.
-- **MINOR**: adição de novas funcionalidades.
-- **PATCH**: correções e ajustes sem alterar as funcionalidades existentes.
-
-Também são utilizados commits semânticos para manter o histórico do projeto organizado.
-
-Exemplos:
-
-- `feat:` nova funcionalidade.
-- `fix:` correção de erro.
-- `docs:` alteração na documentação.
-- `refactor:` melhoria ou reorganização do código.
-- `style:` alterações de formatação ou estilo.
-- `chore:` tarefas de manutenção.
-
-Exemplo de commit:
-
-`feat: adicionar formulário de cadastro`
-
-Exemplo de release:
-
-`v1.0.0`
-## Fluxo de desenvolvimento
-
-O projeto utiliza GitFlow para organização das branches:
-
-- `main`: versão principal e estável do projeto.
-- `develop`: branch de desenvolvimento.
-- `feature/`: branches utilizadas para novas funcionalidades ou melhorias.
+└── vite.config.js
