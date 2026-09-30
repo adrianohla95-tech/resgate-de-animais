@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Projeto Resgate de Animais para proteção, cuidado e resgate de animais."
+    >
+
+    <title>Resgate de Animais</title>
+
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <h1>
+            Resgate de Animais
+        </h1>
+
+
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Abrir menu"
+        >
+            ☰
+        </button>
+
+
+        <nav
+            id="menu"
+            aria-label="Navegação principal"
+        >
+
+            <a href="#inicio">
+                Início
+            </a>
+
+            <a href="#projetos">
+                Projetos
+            </a>
+
+            <a href="#cadastro">
+                Cadastro
+            </a>
+
+        </nav>
+
+
+        <button
+            id="btnContraste"
+            class="botao-contraste"
+            type="button"
+            aria-pressed="false"
+        >
+            Alto contraste
+        </button>
+
+    </header>
+
+
+    <main id="app">
+    </main>
+
+
+    <div
+        id="toast"
+        class="toast"
+        role="status"
+        aria-live="polite"
+    >
+    </div>
+
+
+    <div
+        id="modal"
+        class="modal"
+        aria-hidden="true"
+    >
+
+        <div
+            class="modal-conteudo"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modalTitulo"
+        >
+
+            <button
+                id="fecharModal"
+                class="fechar"
+                type="button"
+                aria-label="Fechar"
+            >
+                &times;
+            </button>
+
+
+            <h2 id="modalTitulo">
+                Informações
+            </h2>
+
+
+            <div id="modalTexto">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 Resgate de Animais
+        </p>
+
+    </footer>
+
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/sweetalert2@11"
+    ></script>
+
+
+    <script
+        type="module"
+        src="js/main.js"
+    ></script>
+
+</body>
+
+</html>

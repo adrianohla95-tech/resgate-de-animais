@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800"
+     height="500">
+
+    <rect
+        width="800"
+        height="500"
+        fill="#81C784"
+    />
+
+    <circle
+        cx="400"
+        cy="250"
+        r="155"
+        fill="white"
+    />
+
+    <circle
+        cx="340"
+        cy="220"
+        r="25"
+        fill="#212121"
+    />
+
+    <circle
+        cx="460"
+        cy="220"
+        r="25"
+        fill="#212121"
+    />
+
+    <path
+        d="M330 305 Q400 365 470 305"
+        fill="none"
+        stroke="#212121"
+        stroke-width="14"
+        stroke-linecap="round"
+    />
+
+    <path
+        d="M275 150 Q185 85 220 230"
+        fill="#795548"
+    />
+
+    <path
+        d="M525 150 Q615 85 580 230"
+        fill="#795548"
+    />
+
+    <text
+        x="400"
+        y="450"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="32"
+        fill="#2E7D32"
+    >
+        Resgate de Animais
+    </text>
+
+</svg>
