@@ -81,3 +81,10 @@ Faculdade Projetos/
 ├── vite.config.js
 ├── README.md
 └── .gitignore
+## Fluxo de desenvolvimento
+
+O projeto utiliza GitFlow para organização das branches:
+
+- `main`: versão principal e estável do projeto.
+- `develop`: branch de desenvolvimento.
+- `feature/`: branches utilizadas para novas funcionalidades ou melhorias.
